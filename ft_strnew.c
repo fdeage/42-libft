@@ -6,12 +6,16 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/23 19:29:32 by fdeage            #+#    #+#             */
-/*   Updated: 2015/02/13 16:48:40 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:37:23 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdint.h>
+
+/*
+** Returns a mallocked string so beware of potential mem leaks
+*/
 
 char	*ft_strnew(size_t size)
 {

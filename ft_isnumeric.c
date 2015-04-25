@@ -6,13 +6,14 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/02/27 13:17:31 by fdeage            #+#    #+#             */
-/*   Updated: 2015/02/28 17:25:22 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:29:44 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
+** basic regex-like number detection function
 ** handles -0.45, -.45, 83.456789, but not 1e3
 */
 

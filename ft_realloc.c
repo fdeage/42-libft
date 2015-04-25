@@ -6,7 +6,7 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/02/14 13:42:01 by fdeage            #+#    #+#             */
-/*   Updated: 2015/02/13 17:43:05 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:38:52 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 ** Allocates a memory which size is the power of 2 right above the number asked
 ** and frees the former memory allocated
 ** The getpow2 gives: 45->64, 64->64, 65->128
+** WARNING: an un-mallocked ptr will create a "pointer being freed was not
+** allocated" error
 */
 
 static size_t	get_pow2(uint64_t nb)

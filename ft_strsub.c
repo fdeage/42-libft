@@ -6,7 +6,7 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/27 17:22:20 by fdeage            #+#    #+#             */
-/*   Updated: 2015/02/13 17:42:16 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:31:18 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 #include "libft.h"
 
 /*
-** Mem leaks! Test dest unless src is null
+** Tests dest unless src is null
+** Returns a mallocked string so beware of potential mem leaks
 */
 
 char	*ft_strsub(char const *src, unsigned int start, size_t len)

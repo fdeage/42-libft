@@ -6,7 +6,7 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/01/21 13:00:39 by fdeage            #+#    #+#             */
-/*   Updated: 2015/02/13 17:41:32 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:31:39 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 #include "libft.h"
 
 /*
-** Mem leaks!
-** strdup is an OpenBSD implementation
+** OpenBSD implementation
+** Returns a mallocked string so beware of potential mem leaks
 */
 
 char	*ft_strdup(const char *s1)

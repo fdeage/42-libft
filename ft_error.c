@@ -6,12 +6,16 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/03/23 21:10:09 by fdeage            #+#    #+#             */
-/*   Updated: 2015/02/13 17:42:35 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:36:16 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "libft.h"
+
+/*
+** err_i and err_p since C doesnt handle function overloading nor templates
+*/
 
 t_error	*err2(char *msg1, char *msg2, t_err_status status)
 {

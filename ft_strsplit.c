@@ -6,14 +6,15 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/31 20:06:13 by fdeage            #+#    #+#             */
-/*   Updated: 2015/01/23 12:46:42 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:32:55 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Mem leaks!
+** Returns a mallocked array of mallocked strings so beware of
+** potential mem leaks
 */
 
 static int	n(char const *str, char c)

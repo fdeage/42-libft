@@ -6,14 +6,15 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/28 15:24:36 by fdeage            #+#    #+#             */
-/*   Updated: 2015/03/09 14:26:57 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:33:38 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Mem leaks! -> strtrim() returns a copy of the original since s1 is const...
+** Returns a mallocked string so beware of potential mem leaks -> strtrim()
+** returns a copy of the original since s1 is const...
 ** The condition after the first run "if (!s1[i] )ret(NULL)" has been removed
 ** so strdup() is called anyways
 */

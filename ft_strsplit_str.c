@@ -6,14 +6,15 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/01/04 22:22:59 by fdeage            #+#    #+#             */
-/*   Updated: 2015/02/16 12:28:20 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:33:16 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Mem leaks!
+** Returns a mallocked array of mallocked strings so beware of
+** potential mem leaks
 */
 
 static int	cmp(char c, char const *str)

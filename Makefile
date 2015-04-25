@@ -6,7 +6,7 @@
 #    By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2013/11/20 11:55:12 by fdeage            #+#    #+#              #
-#    Updated: 2015/03/09 14:13:23 by fdeage           ###   ########.fr        #
+#    Updated: 2015/04/25 13:26:12 by fdeage           ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -22,7 +22,7 @@ SAVETEMP	=
 SVTMPSYNTAX	=	-save-temps
 
 CC			=	$(CLANG)
-GCC			=	$(SILENCE)/usr/local/bin/gcc
+GCC			=	$(SILENCE)/usr/bin/gcc
 CLANG		=	$(SILENCE)/usr/bin/clang
 
 SRC			=	ft_memset.c ft_memcpy.c	\

@@ -6,14 +6,16 @@
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/28 16:22:33 by fdeage            #+#    #+#             */
-/*   Updated: 2015/01/28 13:06:49 by fdeage           ###   ########.fr       */
+/*   Updated: 2015/04/25 13:34:47 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** ft_itoatab() takes at most a tab[12]
+** Returns a mallocked string so beware of potential mem leaks
+** ft_itoatab() takes an array of at most 12 bytes and doesnt use malloc
+** -> to be used in case of multiple calls to itoa()
 */
 
 static void	ft_put_string_nbr(int nbr, char *dest)
