@@ -1,12 +1,10 @@
-# `42-libft`
+# 42-libft
 
 ## Overview
 
-This is a basic reimplementation of some essential glibc functions, without any special tricks.
+This project is a basic reimplementation of some essential glibc functions, without any special tricks.
 
-`42-libft` is a 42 project, which I attended in 2013-2016.
-
-[42](https://www.42.fr) is a French programming school founded in 2013, based on P2P and self-learning. It's a [good place to learn to code](https://twitter.com/paulg/status/847844863727087616).
+`libft` is a first-year project from the [42](#42) school, which I attended in 2013-2016. It abides to the strict rules of 42 not to exceed 5 functions per file, or 25 lines per function.
 
 
 ## Getting started
@@ -16,7 +14,7 @@ You can compile the project like this:
 ?> ./make
 ```
 
-The code was written on macOS but should work anywhere.
+The code was written with macOS in mind but should work anywhere.
 
 
 ## Included functions
@@ -85,7 +83,7 @@ The code was written on macOS but should work anywhere.
 -   `color_reset_fd`
 
 
-## Maths
+### Maths
 
 -   `pow_a`
 -   `min`
@@ -135,9 +133,16 @@ The code was written on macOS but should work anywhere.
 -   `qsort`
 -   `swap`
 
+
+## 42
+
+[42](https://www.42.fr) is a French programming school founded in 2013, rooted in P2P collaboration and self-directed learning. Its pedagogy is fully project-based. It is considered a [good place](https://twitter.com/paulg/status/847844863727087616) to learn to code.
+
+
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
+
 
 ## Author
 

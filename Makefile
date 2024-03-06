@@ -2,7 +2,8 @@ LIB_NAME = libft.a
 SRC_DIR = ./src
 INCLUDE_DIR = ./include
 CC = gcc
-FLAGS = -Wall -Wextra -Werror -I$(INCLUDE_DIR)
+FLAGS = -Wall -Wextra -Werror
+EXTRAFLAGS = -Weverything -Wno-missing-prototypes --analyze -pedantic
 
 SRC = $(wildcard $(SRC_DIR)/*.c)
 OBJ = $(SRC:.c=.o)
@@ -19,7 +20,7 @@ $(LIB_NAME): $(OBJ)
 	@echo "$(COL_B)[BUILD:$(COL_G) DONE$(COL_B)]$(COL_RES)"
 
 %.o: %.c
-	$(CC) $(FLAGS) -c $< -o $@
+	$(CC) $(FLAGS) $(EXTRAFLAGS) -I$(INCLUDE_DIR) -c $< -o $@
 
 clean:
 	-@rm $(OBJ)
