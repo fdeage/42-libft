@@ -33,6 +33,12 @@
 # define STDERR					2
 
 /*
+** I/O define
+*/
+# define MAX_UNSIGNED_INT		2147483647
+# define MIN_UNSIGNED_INT		-2147483648
+
+/*
 ** Boolean flags
 */
 # define TRUE					1

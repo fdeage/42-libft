@@ -34,9 +34,9 @@ void	ft_putendl_fd(char const *s, int fd)
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	if (n > 2147483647)
+	if (n > MAX_UNSIGNED_INT)
 		return ;
-	else if (n == -2147483648)
+	else if (n == MIN_UNSIGNED_INT)
 	{
 		ft_putstr_fd("-2147483648", fd);
 		return ;

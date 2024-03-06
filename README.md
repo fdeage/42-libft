@@ -1,131 +1,144 @@
-# libft
+# `42-libft`
 
-Basic reimplementations of essential glibc functions. No special tricks used. No algorithm were harmed in the writing of these functions.
+## Overview
 
-## Memset, memcpy, etc.
+This is a basic reimplementation of some essential glibc functions, without any special tricks.
 
--   memset
--   bzero
--   memcpy
--   memccpy
--   memmove
--   memchr
--   memcmp
--   memdel
+`42-libft` is a 42 project, which I attended in 2013-2016.
 
-## String
+[42](https://www.42.fr) is a French programming school founded in 2013, based on P2P and self-learning. It's a [good place to learn to code](https://twitter.com/paulg/status/847844863727087616).
 
--   ft_striter
--   ft_striteri
--   ft_strmap
--   ft_strmapi
 
--   strnew
--   strdel
--   strclr
--   strequ
--   strnequ
--   strsub
--   strtrim
--   strtrim_mod
--   strsplit
--   strsplit_str
--   strcmp
--   strncmp
--   strrev
--   getfirststr
--   strlen
--   strpos
--   strcpy
--   strncpy
--   strdup
--   strcat
--   strncat
--   strlcat
--   strjoin
--   strchr
--   strrchr
--   strstr
--   strnstr
+## Getting started
 
-## Print
+You can compile the project like this:
+```
+?> ./make
+```
 
--   putchar
--   putstr
--   putendl
--   putnbr
--   puttab
+The code was written on macOS but should work anywhere.
 
--   putchar_fd
--   putstr_fd
--   putendl_fd
--   putnbr_fd
--   puttab_fd
 
--   printchar_hex_fd
--   printhex
--   printhex_fd
+## Included functions
 
-## Color handling
+### Memset, memcpy, etc.
 
--   putstr_color
--   putstr_color_fd
--   color_switch_fd
--   color_reset_fd
+-   `memset`
+-   `bzero`
+-   `memcpy`
+-   `memccpy`
+-   `memmove`
+-   `memchr`
+-   `memcmp`
+-   `memdel`
 
-## Error
 
--   err1
--   err2
--   err_i
--   err_p
+### String manipulation
 
-## min and max
+-   `ft_striter`
+-   `ft_striteri`
+-   `ft_strmap`
+-   `ft_strmapi`
+-   `strnew`
+-   `strdel`
+-   `strclr`
+-   `strequ`
+-   `strnequ`
+-   `strsub`
+-   `strtrim`
+-   `strtrim_mod`
+-   `strsplit`
+-   `strsplit_str`
+-   `strcmp`
+-   `strncmp`
+-   `strrev`
+-   `strlen`
+-   `strpos`
+-   `strcpy`
+-   `strncpy`
+-   `strdup`
+-   `strcat`
+-   `strncat`
+-   `strlcat`
+-   `strjoin`
+-   `strchr`
+-   `strrchr`
+-   `strstr`
+-   `strnstr`
 
--   min
--   max
--   min_float
--   max_float
 
-## is* and to*
+### Printing
 
--   isalpha
--   isdigit
--   isalnum
--   isascii
--   isprint
+-   `putchar`
+-   `putstr`
+-   `putendl`
+-   `putnbr`
+-   `puttab`
+-   `printhex`
 
--   isspace
--   toupper
--   tolower
 
--   isnumeric
--   aredigits
+### Color handling
 
-## Linked list
+-   `putstr_color`
+-   `putstr_color_fd`
+-   `color_switch_fd`
+-   `color_reset_fd`
 
-lstnew
-lstdelone
-lstdel
-lstadd
-lstadd_back
-lstiter
-lstmap
 
 ## Maths
 
--   pow_a
+-   `pow_a`
+-   `min`
+-   `max`
+-   `min_float`
+-   `max_float`
 
-## Malloc
 
--   ft_memalloc
--   ft_calloc
--   ft_realloc
+### `is_` and `to_`
 
-## Atoi and family
+-   `isalpha`
+-   `isdigit`
+-   `isalnum`
+-   `isascii`
+-   `isprint`
+-   `isspace`
+-   `toupper`
+-   `tolower`
 
--   atoi
--   itoa
--   itoatab
--   qsort
--   swap
+-   `isnumeric`
+-   `aredigits`
+
+
+### Linked list
+
+-   `lstnew`
+-   `lstdelone`
+-   `lstdel`
+-   `lstadd`
+-   `lstadd_back`
+-   `lstiter`
+-   `lstmap`
+
+
+### Malloc
+
+-   `memalloc`
+-   `calloc`
+-   `realloc`
+
+
+### Various
+
+-   `atoi`
+-   `itoa`
+-   `itoatab`
+-   `qsort`
+-   `swap`
+
+## License
+
+This project is licensed under the [MIT license](LICENSE).
+
+## Author
+
+This project was created by Félix Déage.

@@ -1,23 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_minmax.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fdeage <fdeage@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/20 17:55:35 by fdeage            #+#    #+#             */
-/*   Updated: 2014/06/24 18:59:50 by fdeage           ###   ########.fr       */
+/*   Created: 2015/01/27 14:32:42 by fdeage            #+#    #+#             */
+/*   Updated: 2015/01/27 14:39:30 by fdeage           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include <stdlib.h>
 
-size_t	ft_strlen(const char *str)
+size_t	ft_min(size_t a, size_t b)
 {
-	register const char	*tmp;
+	return (a < b ? a : b);
+}
 
-	tmp = (const char *)str;
-	while (*tmp)
-		++tmp;
-	return ((size_t)(tmp - str));
+size_t	ft_max(size_t a, size_t b)
+{
+	return (a > b ? a : b);
+}
+
+float	ft_min_float(float a, float b)
+{
+	return (a < b ? a : b);
+}
+
+float	ft_max_float(float a, float b)
+{
+	return (a > b ? a : b);
 }

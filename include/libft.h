@@ -14,7 +14,6 @@
 # define LIBFT_H
 
 # include <stdlib.h>
-# include "gnl.h"
 # include "macros.h"
 
 /*
@@ -66,7 +65,6 @@ char		**ft_strsplit_str(char const *s1, char const *s2);
 int			ft_strcmp(const char *s1, const char *s2);
 int			ft_strncmp(const char *s1, const char *s2, size_t n);
 char		*ft_strrev(char *s);
-char		*ft_getfirststr(const char *s1);
 size_t		ft_strlen(const char *str);
 size_t		ft_strpos(const char *str, int c);
 
@@ -129,15 +127,6 @@ void		ft_putstr_color(char const *s, char const *color);
 void		ft_putstr_color_fd(char const *s, char const *color, int fd);
 void		ft_color_switch_fd(char const *color, int fd);
 void		ft_color_reset_fd(int fd);
-
-/*
-** ft_error.c
-*/
-
-t_error		*err1(t_error *error, const char *file, const char *func, int line);
-t_error		*err2(char *msg1, char *msg2, t_err_status status);
-int			ft_err_i(t_error *err, int ret_value, int fd);
-void		*ft_err_p(t_error *err, void *ret_value, int fd);
 
 /*
 ** ft_minmax.c
